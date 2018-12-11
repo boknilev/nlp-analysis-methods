@@ -1,0 +1,184 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sortable/0.8.0/css/sortable-theme-bootstrap.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sortable/0.8.0/js/sortable.min.js"></script>
+  </head>
+
+  <body>
+    <table class="sortable-theme-bootstrap" data-sortable>
+      <thead>
+        <th>Method</th>
+        <th init-sort>Knowledge</th>
+        <th>Targeted</th>
+        <th>Unit</th>
+        <th>Task</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>\cite{belinkov:2018:ICLR}</td>
+          <td>Black</td>
+          <td>&#10007;</td>
+          <td>Character</td>
+          <td>MT</td>
+        </tr>
+        <tr>
+          <td>\cite{heigold2017robust}</td>
+          <td>Black</td>
+          <td>&#10007;</td>
+          <td>Character</td>
+          <td>MT, morphology</td>
+        </tr>
+        <tr>
+          <td>\cite{DBLP:conf/aaai/SakaguchiDPD17}</td>
+          <td>Black</td>
+          <td>&#10007;</td>
+          <td>Character</td>
+          <td>Spelling correction</td>
+        </tr>
+        <tr>
+          <td>\cite{zhao2018generating}</td>
+          <td>Black</td>
+          <td>&#10003;, &#10007;</td>
+          <td>Word</td>
+          <td>MT, NLI</td>
+        </tr>
+        <tr>
+          <td>\cite{gao2018black}</td>
+          <td>Black</td>
+          <td>&#10007;</td>
+          <td>Character</td>
+          <td>Text classification, sentiment</td>
+        </tr>
+        <tr>
+          <td>\cite{jia-liang:2017:EMNLP2017}</td>
+          <td>Black</td>
+          <td>&#10007;</td>
+          <td>Sentence</td>
+          <td>Reading comprehension</td>
+        </tr>
+        <tr>
+          <td>\cite{N18-1170}</td>
+          <td>Black</td>
+          <td>&#10007;</td>
+          <td>Syntax</td>
+          <td>Sentiment, entailment</td>
+        </tr>
+        <tr>
+          <td>\cite{shi2018learning}</td>
+          <td>Black</td>
+          <td>&#10007;</td>
+          <td>Word</td>
+          <td>Image captioning</td>
+        </tr>
+        <tr>
+          <td>\cite{alzantot2018generating}</td>
+          <td>Black</td>
+          <td>&#10007;</td>
+          <td>Word</td>
+          <td>NLI, sentiment</td>
+        </tr>
+        <tr>
+          <td>\cite{kuleshov2018adversarial}</td>
+          <td>Black</td>
+          <td>&#10007;</td>
+          <td>Word</td>
+          <td>Text classification, sentiment</td>
+        </tr>
+        <tr>
+          <td>\cite{P18-1079}</td>
+          <td>Black</td>
+          <td>&#10007;</td>
+          <td>Word</td>
+          <td>Reading comprehension, visual QA, sentiment</td>
+        </tr>
+        <tr>
+          <td>\cite{Niu:2018}</td>
+          <td>Black</td>
+          <td>&#10007;</td>
+          <td>Word</td>
+          <td>Dialogue</td>
+        </tr>
+        <tr>
+          <td>\cite{P18-1241}</td>
+          <td>White</td>
+          <td>&#10003;</td>
+          <td>Pixels</td>
+          <td>Image captioning</td>
+        </tr>
+        <tr>
+          <td>\cite{C18-1055}</td>
+          <td>White</td>
+          <td>&#10003;</td>
+          <td>Word</td>
+          <td>MT</td>
+        </tr>
+        <tr>
+          <td>\cite{cheng2018seq2sick}</td>
+          <td>White</td>
+          <td>&#10003;</td>
+          <td>Word</td>
+          <td>MT, summarization</td>
+        </tr>
+        <tr>
+          <td>\cite{P18-1176}</td>
+          <td>White</td>
+          <td>&#10007;</td>
+          <td>Word</td>
+          <td>Reading comprehension, visual and table QA</td>
+        </tr>
+        <tr>
+          <td>\cite{papernot2016crafting}</td>
+          <td>White</td>
+          <td>&#10007;</td>
+          <td>Word</td>
+          <td>Sentiment</td>
+        </tr>
+        <tr>
+          <td>\cite{samanta2017towards}</td>
+          <td>White</td>
+          <td>&#10007;</td>
+          <td>Word</td>
+          <td>Sentiment, gender detection</td>
+        </tr>
+        <tr>
+          <td>\cite{ijcai2018-601}</td>
+          <td>White</td>
+          <td>&#10007;</td>
+          <td>Word</td>
+          <td>Text classification, sentiment, grammatical error detection</td>
+        </tr>
+        <tr>
+          <td>\cite{liang2017deep}</td>
+          <td>White</td>
+          <td>&#10003;</td>
+          <td>Word/Character</td>
+          <td>Text classification</td>
+        </tr>
+        <tr>
+          <td>\cite{P18-2006}</td>
+          <td>White</td>
+          <td>&#10007;</td>
+          <td>Word/Character</td>
+          <td>Text classification</td>
+        </tr>
+        <tr>
+          <td>\cite{yang2018greedy}</td>
+          <td>White</td>
+          <td>&#10007;</td>
+          <td>Word/Character</td>
+          <td>Text classification</td>
+        </tr>
+      </tbody>
+    </table>
+    <script type="text/javascript">
+      var table = document.querySelectorAll('table[data-sortable]')[0]
+      Sortable.initTable(table)
+
+      var initSortCol = document.querySelectorAll('table[data-sortable] > thead > tr > th[init-sort]')
+      if (initSortCol.length > 0) {
+        initSortCol[0].click()
+      }
+    </script>
+  </body>
+</html>
+<!-- Docs: https://github.hubspot.com/sortable/ -->
