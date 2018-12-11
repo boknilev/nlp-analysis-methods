@@ -1,4 +1,4 @@
-# Neural NLP Analysis Methods
+# Analysis Methods in Neural NLP
 This site contains the accompanying appendix for the paper "Analysis Methods in Neural Language Processing: A Survey", to appear in TACL. 
 
 ## Tables
