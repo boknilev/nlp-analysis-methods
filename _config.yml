@@ -1,4 +1,4 @@
-theme: jekyll-theme-minimal
+theme: jekyll-theme-slate
 title: "Neural NLP Analysis Methods"
 description: "Accompanying appendix for the paper “Analysis Methods in Neural Language Processing: A Survey”, to appear in TACL."
 show_downloads: false
