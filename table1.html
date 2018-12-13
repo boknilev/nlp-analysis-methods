@@ -2,10 +2,19 @@
   <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sortable/0.8.0/css/sortable-theme-bootstrap.min.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sortable/0.8.0/js/sortable.min.js"></script>
+    <script type="text/javascript" src="https://cdn.rawgit.com/pcooksey/bibtex-js/ef59e62c/src/bibtex_js.js"></script>
+    <bibtex src="references.bib"></bibtex>  
   </head>
 
 
   <body>
+    <div class="bibtex_template">
+      <div class="if author">
+	    <span class="author" max="2"><span class="von"></span> <span class="last"></span><span class="junior">, </span></span>
+	    <span class="if year"><span class="year"></span></span>
+      </div>
+    </div>
+    
     <table class="sortable-theme-bootstrap" data-sortable>
       <thead>
         <th>Reference</th>
@@ -15,235 +24,253 @@
       </thead>
       <tbody>
         <tr>
-          <td>\cite{kohn:2015:EMNLP}</td>
+          <td><div class="bibtex_display" bibtexkeys="kohn:2015:EMNLP"></div></td>
           <td>Word embeddings</td>
           <td>POS, head POS, dependency relation, gender, case, number, tense  </td>
           <td>Classification </td>
         </tr>
         <tr>
-          <td>\cite{qian-qiu-huang:2016:P16-11}</td>
+          <td><div class="bibtex_display" bibtexkeys="qian-qiu-huang:2016:P16-11"></div></td>
           <td>Word embeddings</td>
           <td>POS, dependency relations, morphological features, emotions</td>
           <td>Classification </td>
         </tr>
         <tr>
-          <td>\cite{D15-1002}</td>
+          <td><div class="bibtex_display" bibtexkeys="D15-1002"></td>
           <td>Word embeddings</td>
           <td>Referential attributes</td>
           <td>Classification </td>
         </tr>
         <tr>
-          <td>\cite{qian-qiu-huang:2016:EMNLP2016}</td>
+          <td><div class="bibtex_display" bibtexkeys="qian-qiu-huang:2016:EMNLP2016"></td>
           <td>RNN states/gates</td>
           <td>POS, syntactic role, gender, case, definiteness, verb form, mood</td>
           <td>Classification, correlation</td>
         </tr>
         <tr>
-          <td>\cite{shi-padhi-knight:2016:EMNLP2016}</td>
+          <td><div class="bibtex_display" bibtexkeys="shi-padhi-knight:2016:EMNLP2016"></td>
           <td>RNN states</td>
           <td>POS, top syntactic sequence, smallest constituent, tense, voice </td>
           <td>Classification</td>
         </tr>
         <tr>
-          <td>\cite{wu2016investigating}</td>
+          <td><div class="bibtex_display" bibtexkeys="wu2016investigating"></td>
           <td>RNN states/gates</td>
           <td>Acoustic features</td>
           <td>Correlation</td>
         </tr>
         <tr>
-          <td>\cite{wang2017gate}</td>
+          <td><div class="bibtex_display" bibtexkeys="wang2017gate"></td>
           <td>RNN gates</td>
           <td>Phoneme boundaries</td>
           <td>Change in activation signal</td>
         </tr>
         <tr>
-          <td>\cite{P18-2003}</td>
+          <td><div class="bibtex_display" bibtexkeys="P18-2003"></td>
           <td>RNN states</td>
           <td>POS, ancestor label prediction, dependency relation prediction</td>
           <td>Classification</td>
         </tr>
         <tr>
-          <td>\cite{adi2017analysis,adi2016fine}</td>
+          <td><div class="bibtex_display" bibtexkeys="adi2017analysis|adi2016fine"></td>
           <td>Sentence embeddings</td>
           <td>Sentence length, word presence, word order</td>
           <td>Classification </td>
         </tr>
         <tr>
-          <td>\cite{Ganesh:2017:IST:3110025.3110083}</td>
+          <td><div class="bibtex_display" bibtexkeys="Ganesh:2017:IST:3110025.3110083"></td>
           <td>Sentence embeddings</td>
           <td>Sentence length, word presence, word order; orthography; social tasks</td>
           <td>Classification  </td>
         </tr>
         <tr>
-          <td>\cite{W16-2524}</td>
+          <td><div class="bibtex_display" bibtexkeys="W16-2524"></td>
           <td>Sentence embeddings</td>
           <td>Semantic role, word presence</td>
           <td>Classification  </td>
         </tr>
         <tr>
-          <td>\cite{brunner2018natural}</td>
+          <td><div class="bibtex_display" bibtexkeys="brunner2018natural"></td>
           <td>Sentence embeddings</td>
           <td>Synthetic syntactic patterns</td>
           <td>Clustering </td>
         </tr>
         <tr>
-          <td>\cite{conneau2018you}</td>
+          <td><div class="bibtex_display" bibtexkeys="conneau2018you"></td>
           <td>Sentence embeddings</td>
           <td>Sentence length, word presence, word order; tree depth, top constituent; main tense, subject/object number, semantic odd man out, coordinate inversion</td>
           <td>Classification </td>
         </tr>
         <tr>
-          <td>\cite{ahmad2018multi}</td>
+          <td><div class="bibtex_display" bibtexkeys="ahmad2018multi"></td>
           <td>Sentence embeddings</td>
           <td>Sentence length, word presence, word order; POS, word sense disambiguation; sentence order </td>
           <td>Classification </td>
         </tr>
         <tr>
-          <td>\cite{I17-1004}</td>
+          <td><div class="bibtex_display" bibtexkeys="I17-1004"></td>
           <td>Attention weights</td>
           <td>POS, word alignment</td>
           <td>Distribution measures, match with  alignments </td>
         </tr>
         <tr>
-          <td>\cite{P18-1117}</td>
+          <td><div class="bibtex_display" bibtexkeys="P18-1117"></td>
           <td>Attention weights</td>
           <td>Anaphora</td>
           <td>Attention score </td>
         </tr>
         <tr>
-          <td>\cite{nagamine2015exploring}</td>
+          <td><div class="bibtex_display" bibtexkeys="W18-6304"></td>
+          <td>Attention weights</td>
+          <td>Word sense disambiguation</td>
+          <td>Distribution measures</td>
+        </tr>
+        <tr>
+          <td><div class="bibtex_display" bibtexkeys="nagamine2015exploring"></td>
           <td>Hidden activations in feed-forward acoustic model</td>
           <td>Phonemes, phonetic features, gender</td>
           <td>Clustering, average activations by group/label </td>
         </tr>
         <tr>
-          <td>\cite{Nagamine+2016}</td>
+          <td><div class="bibtex_display" bibtexkeys="Nagamine2016"></td>
           <td>Hidden activations in feed-forward acoustic model</td>
           <td>Phonemes, phonetic features</td>
           <td>Classification, clustering measures  </td>
         </tr>
         <tr>
-          <td>\cite{belinkov:2017:nips}</td>
+          <td><div class="bibtex_display" bibtexkeys="belinkov:2017:nips"></div></td>
           <td>CNN/RNN activations</td>
           <td>Phonetic units</td>
           <td>Classification </td>
         </tr>
         <tr>
-          <td>\cite{Wang2017}</td>
+          <td><div class="bibtex_display" bibtexkeys="Wang2017"></td>
           <td>Speaker embeddings</td>
           <td>Speaker, speech content, word order, utterance length, channel, gender, speaking rate </td>
           <td>Classification </td>
         </tr>
         <tr>
-          <td>\cite{elloumi2018analyzing}</td>
+          <td><div class="bibtex_display" bibtexkeys="elloumi2018analyzing"></td>
           <td>CNN activations</td>
           <td>Style, accent, broadcast program</td>
           <td>Classification </td>
         </tr>
         <tr>
-          <td>\cite{chrupala2017representations}</td>
+          <td><div class="bibtex_display" bibtexkeys="chrupala2017representations"></td>
           <td>Audio-visual RNN activations</td>
           <td>Utterance length, word presence, homonym disambiguation</td>
           <td>Classification, regression, similarity measures </td>
         </tr>
         <tr>
-          <td>\cite{harwath2017learning}</td>
+          <td><div class="bibtex_display" bibtexkeys="harwath2017learning"></td>
           <td>Audio-visual CNN embeddings</td>
           <td>Word classes</td>
           <td>Clustering </td>
         </tr>
         <tr>
-          <td>\cite{K17-1037}</td>
+          <td><div class="bibtex_display" bibtexkeys="K17-1037"></td>
           <td>RNN states in audio-visual model</td>
           <td>Phonemes, synonyms</td>
           <td>Classification, clustering, discrimination   </td>
         </tr>
         <tr>
-          <td>\cite{Drexler2017AnalysisOA}</td>
+          <td><div class="bibtex_display" bibtexkeys="Drexler2017AnalysisOA"></td>
           <td>Audio-visual CNN activations</td>
           <td>Phonemes, speakers, word identity</td>
           <td>Clustering, discrimination </td>
         </tr>
         <tr>
-          <td>\cite{N18-2122}</td>
+          <td><div class="bibtex_display" bibtexkeys="N18-2122"></td>
           <td>Word embeddings, vision CNN </td>
           <td>Concepts</td>
           <td>Similarity measures  </td>
         </tr>
         <tr>
-          <td>\cite{W18-3024}</td>
+          <td><div class="bibtex_display" bibtexkeys="W18-3024"></td>
           <td>RNN states</td>
           <td>Word presence</td>
           <td>Direct classification </td>
         </tr>
         <tr>
-          <td>\cite{D16-1248}</td>
+          <td><div class="bibtex_display" bibtexkeys="D16-1248"></td>
           <td>NMT encoder neurons</td>
           <td>Sentence length</td>
           <td>Regression </td>
         </tr>
         <tr>
-          <td>\cite{vylomova2016word}</td>
+          <td><div class="bibtex_display" bibtexkeys="vylomova2016word"></td>
           <td>NMT word embeddings</td>
           <td>synonyms, morphological features</td>
           <td>Nearest neighbors</td>
         </tr>
         <tr>
-          <td>\cite{belinkov:2017:acl,dalvi:2017:ijcnlp}</td>
+          <td><div class="bibtex_display" bibtexkeys="belinkov:2017:acl|dalvi:2017:ijcnlp"></td>
           <td>NMT states</td>
           <td>POS, morphology</td>
           <td>Classification </td>
         </tr>
         <tr>
-          <td>\cite{belinkov:2017:ijcnlp}</td>
+          <td><div class="bibtex_display" bibtexkeys="belinkov:2017:ijcnlp"></td>
           <td>NMT states</td>
           <td>POS, lexical semantics</td>
           <td>Classification </td>
         </tr>
         <tr>
-          <td>\cite{linzen2016assessing}</td>
+          <td><div class="bibtex_display" bibtexkeys="D18-1313"></td>
+          <td>NMT states</td>
+          <td>Morphology</td>
+          <td>Classification</td>
+        </tr>
+        <tr>
+          <td><div class="bibtex_display" bibtexkeys="dalvi:2019:AAAI"></td>
+          <td>NMT and LM neurons</td>
+          <td>POS, morphology, lexical semantics</td>
+          <td>Classification</td>
+        </tr> 
+        <tr>
+          <td><div class="bibtex_display" bibtexkeys="linzen2016assessing"></td>
           <td>RNN states</td>
           <td>Subject-verb agreement</td>
           <td>Likelihood comparison, direct classification </td>
         </tr>
         <tr>
-          <td>\cite{tran2018importance}</td>
+          <td><div class="bibtex_display" bibtexkeys="tran2018importance"></td>
           <td>RNN / self-attention states</td>
           <td>Subject-verb agreement</td>
           <td>Likelihood comparison, direct classification </td>
         </tr>
         <tr>
-          <td>\cite{gulordava2018colorless}</td>
+          <td><div class="bibtex_display" bibtexkeys="gulordava2018colorless"></td>
           <td>RNN states</td>
           <td>Number agreement</td>
           <td>Likelihood comparison </td>
         </tr>
         <tr>
-          <td>\cite{N18-1091}</td>
+          <td><div class="bibtex_display" bibtexkeys="N18-1091"></td>
           <td>Parser word embeddings</td>
           <td>Word features (shape, etc.)</td>
           <td>Classification; also other methods </td>
         </tr>
         <tr>
-          <td>\cite{mccoy2018revisiting}</td>
+          <td><div class="bibtex_display" bibtexkeys="mccoy2018revisiting"></td>
           <td>RNN sentence embedding</td>
           <td>Hierarchical structure</td>
           <td>Classification </td>
         </tr>
         <tr>
-          <td>\cite{peters2018dissecting}</td>
+          <td><div class="bibtex_display" bibtexkeys="peters2018dissecting"></td>
           <td>biLM representations (RNN, Transformer, gated CNN) </td>
           <td>POS, constituency parsing, coreference</td>
           <td>Classification; similarity scores </td>
         </tr>
         <tr>
-          <td>\cite{gelderloos-chrupala:2016:COLING}</td>
+          <td><div class="bibtex_display" bibtexkeys="gelderloos-chrupala:2016:COLING"></td>
           <td>RNN states in language-vision model</td>
           <td>Word boundary, word similarity</td>
           <td>Classification </td>
         </tr>
         <tr>
-          <td>\cite{chaabouni2017learning}</td>
+          <td><div class="bibtex_display" bibtexkeys="chaabouni2017learning"></td>
           <td>Hidden activations in feed-forward audio-visual model </td>
           <td>Phonetic features</td>
           <td>Discrimination </td>

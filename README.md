@@ -6,6 +6,9 @@ This site contains the accompanying supplementary materials for the paper "Analy
 * [Table SM2](table2.html): A categorization of challenge sets for evaluating neural networks according to the NLP task, the linguistic phenomena, the represented languages, the dataset size, and the construction method. See Section 4 in the paper.
 * [Table SM3](table3.html): A categorization of methods for adversarial examples in NLP according to adversary's knowledge (white-box vs. black-box), attack specificity (targeted vs. non-targeted), the modified linguistic unit (words, characters, etc.), and the attacked task. See Section 5 in the paper. 
 
+## References
+The list of references is available [here](references.html). 
+
 ## Contributions
 Miss your favorite neural analysis method? Great! Contributions to this site are welcome. Please open a pull request. 
 

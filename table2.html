@@ -2,9 +2,19 @@
   <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sortable/0.8.0/css/sortable-theme-bootstrap.min.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sortable/0.8.0/js/sortable.min.js"></script>
+    <script type="text/javascript" src="https://cdn.rawgit.com/pcooksey/bibtex-js/ef59e62c/src/bibtex_js.js"></script>
+    <bibtex src="references.bib"></bibtex>    
   </head>
 
+
   <body>
+    <div class="bibtex_template">
+      <div class="if author">
+	    <span class="author" max="2"><span class="von"></span> <span class="last"></span><span class="junior">, </span></span>
+	    <span class="if year"><span class="year"></span></span>
+      </div>
+    </div>
+
     <table class="sortable-theme-bootstrap" data-sortable>
       <thead>
         <th>Reference</th>
@@ -16,7 +26,7 @@
       </thead>
       <tbody>
         <tr>
-          <td>\cite{naik2018stress}</td>
+          <td><div class="bibtex_display" bibtexkeys="naik2018stress"></td>
           <td>NLI</td>
           <td>Antonyms, quantities, spelling, word overlap, negation, length</td>
           <td>English</td>
@@ -24,7 +34,7 @@
           <td>Automatic</td>	
         </tr>
         <tr>
-          <td>\cite{dasgupta2018evaluating}</td>
+          <td><div class="bibtex_display" bibtexkeys="dasgupta2018evaluating"></td>
           <td>NLI</td>
           <td>Compositionality</td>
           <td>English</td>
@@ -32,15 +42,15 @@
           <td>Automatic</td>	
         </tr>
         <tr>
-          <td>\cite{N18-1179}</td>
+          <td><div class="bibtex_display" bibtexkeys="N18-1179"></td>
           <td>NLI</td>
           <td>Antonyms, hyper/hyponyms</td>
           <td>English</td>
           <td>6279</td>
-          <td>Semi-auto.</td>	
+          <td>Semi-automatic</td>	
         </tr>
         <tr>
-          <td>\cite{wang2018glue}</td>
+          <td><div class="bibtex_display" bibtexkeys="wang2018glue"></td>
           <td>NLI</td>
           <td>Diverse semantics</td>
           <td>English</td>
@@ -48,23 +58,31 @@
           <td>Manual</td>	
         </tr>
         <tr>
-          <td>\cite{P18-2103}</td>
+          <td><div class="bibtex_display" bibtexkeys="P18-2103"></td>
           <td>NLI</td>
           <td>Lexical inference</td>
           <td>English</td>
           <td>8193</td>
-          <td>Semi-auto.</td>	
+          <td>Semi-automatic</td>	
         </tr>
         <tr>
-          <td>\cite{W17-4702}</td>
+          <td><div class="bibtex_display" bibtexkeys="D18-1007"></td>
+          <td>NLI</td>
+          <td>Diverse</td>
+          <td>English</td>
+          <td>570K</td>
+          <td>Manual, semi-automatic, automatic</td>
+        </tr>
+        <tr>
+          <td><div class="bibtex_display" bibtexkeys="W17-4702"></td>
           <td>MT</td>
           <td>Word sense disambiguation</td>
           <td>German&#8594;English/French</td>
           <td>13900</td>
-          <td>Semi-auto.</td>	
+          <td>Semi-automatic</td>	
         </tr>
         <tr>
-          <td>\cite{W17-4705}</td>
+          <td><div class="bibtex_display" bibtexkeys="W17-4705"></td>
           <td>MT</td>
           <td>Morphology</td>
           <td>English&#8594;Czech/Latvian</td>
@@ -72,7 +90,7 @@
           <td>Automatic</td>	
         </tr>
         <tr>
-          <td>\cite{E17-2060}</td>
+          <td><div class="bibtex_display" bibtexkeys="E17-2060"></td>
           <td>MT</td>
           <td>Polarity, verb-particle constructions, agreement, transliteration</td>
           <td>English&#8594;German</td>
@@ -80,7 +98,7 @@
           <td>Automatic</td>	
         </tr>
         <tr>
-          <td>\cite{N18-1118}</td>
+          <td><div class="bibtex_display" bibtexkeys="N18-1118"></td>
           <td>MT</td>
           <td>Discourse</td>
           <td>English&#8594;French</td>
@@ -88,7 +106,7 @@
           <td>Manual</td>	
         </tr>
         <tr>
-          <td>\cite{D17-1263,isabelle2018challenge}</td>
+          <td><div class="bibtex_display" bibtexkeys="D17-1263|isabelle2018challenge"></td>
           <td>MT</td>
           <td>Morpho-syntax, syntax, lexicon</td>
           <td>English&#8596;French</td>
@@ -96,7 +114,7 @@
           <td>Manual</td>	
         </tr>
         <tr>
-          <td>\cite{burchardt2017linguistic}</td>
+          <td><div class="bibtex_display" bibtexkeys="burchardt2017linguistic"></td>
           <td>MT</td>
           <td>Diverse</td>
           <td>English&#8596;German</td>
@@ -104,7 +122,7 @@
           <td>Manual</td>	
         </tr>
         <tr>
-          <td>\cite{linzen2016assessing}</td>
+          <td><div class="bibtex_display" bibtexkeys="linzen2016assessing"></td>
           <td>LM</td>
           <td>Subject-verb agreement</td>
           <td>English</td>
@@ -112,7 +130,7 @@
           <td>Automatic</td>	
         </tr>
         <tr>
-          <td>\cite{gulordava2018colorless}</td>
+          <td><div class="bibtex_display" bibtexkeys="gulordava2018colorless"></td>
           <td>LM</td>
           <td>Number agreement</td>
           <td>English, Russian, Hebrew, Italian</td>
@@ -120,28 +138,36 @@
           <td>Automatic</td>	
         </tr>
         <tr>
-          <td>\cite{N18-2002}</td>
+          <td><div class="bibtex_display" bibtexkeys="N18-2002"></td>
           <td>Coreference</td>
           <td>Gender bias</td>
           <td>English</td>
           <td>720</td>
-          <td>Semi-auto.</td>	
+          <td>Semi-automatic</td>	
         </tr>
         <tr>
-          <td>\cite{N18-2003}</td>
+          <td><div class="bibtex_display" bibtexkeys="N18-2003"></td>
           <td>Coreference</td>
           <td>Gender bias</td>
           <td>English</td>
           <td>3160</td>
-          <td>Semi-auto.</td>	
+          <td>Semi-automatic</td>	
         </tr>
         <tr>
-          <td>\cite{lake2018}</td>
+          <td><div class="bibtex_display" bibtexkeys="lake2018"></td>
           <td>Seq2Seq</td>
           <td>Compositionality</td>
           <td>English</td>
           <td>20910</td>
           <td>Automatic</td>	
+        </tr>
+        <tr>
+          <td><div class="bibtex_display" bibtexkeys="D18-1277"></td>
+          <td>POS tagging</td>
+          <td>Noun-verb ambiguity</td>
+          <td>English</td>
+          <td>32654</td>
+          <td>Semi-automatic</td>
         </tr>
       </tbody>
     </table>
