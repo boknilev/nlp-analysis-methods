@@ -1,6 +1,8 @@
 # Analysis Methods in Neural NLP
 This site contains the accompanying supplementary materials for the paper "Analysis Methods in Neural Language Processing: A Survey", to appear in TACL. 
 
+Pre-print available [here](https://arxiv.org/abs/1812.08951). 
+
 ## Tables
 * [Table SM1](table1.html): A categorization of work trying to find linguistic information in neural networks according to the neural network component investigated, the linguistic property sought, and the analysis method. See Section 2 in the paper.
 * [Table SM2](table2.html): A categorization of challenge sets for evaluating neural networks according to the NLP task, the linguistic phenomena, the represented languages, the dataset size, and the construction method. See Section 4 in the paper.
