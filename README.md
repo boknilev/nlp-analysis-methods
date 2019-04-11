@@ -18,10 +18,13 @@ Miss your favorite neural analysis method? Great! Contributions to this site are
 If you find this resource useful, please cite our paper:
 
 ```
-@Article{belinkov:2018:tacl,
+@Article{belinkov:2019:tacl,
   author    = {Belinkov, Yonatan  and  Glass, James},
   title     = {Analysis Methods in Neural Language Processing: A Survey},
   journal = {Transactions of the Association for Computational Linguistics (TACL)},
-  year      = {To appear}
+  year      = {2019},
+  volume    = {7},
+  pages     = {49--72},
+  doi       = {10.1162/tacl\_a\_00254}
 }
 ```
