@@ -1,7 +1,5 @@
 # Analysis Methods in Neural NLP
-This site contains the accompanying supplementary materials for the paper "Analysis Methods in Neural Language Processing: A Survey", to appear in TACL. 
-
-Pre-print available [here](https://arxiv.org/abs/1812.08951). 
+This site contains the accompanying supplementary materials for the paper "Analysis Methods in Neural Language Processing: A Survey", TACL 2019, available [here](https://www.mitpressjournals.org/doi/full/10.1162/tacl_a_00254). 
 
 ## Tables
 * [Table SM1](table1.html): A categorization of work trying to find linguistic information in neural networks according to the neural network component investigated, the linguistic property sought, and the analysis method. See Section 2 in the paper.
